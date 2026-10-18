@@ -6,13 +6,13 @@
 Evaluate price positioning, neighborhood supply, host concentration and historic review activity to assess the potential for travel-service expansion in Asheville, North Carolina.
 
 ## Source and scope
-Inside Airbnb: `listings.csv` (snapshot inventory), `reviews.csv` (historical reviews) and `neighbourhoods.csv` (optional reference table). Current listing inventory is not the same as the population of every historical listing. CSVs are not bundled because they may be large or subject to redistribution restrictions; obtain the same extract and point Cell 1 to the files.
+Inside Airbnb: `listings.csv` (snapshot inventory), `reviews.csv` (historical reviews) and `neighbourhoods.csv` (optional reference table). Current listing inventory is not the same as the population of every historical listing. The three source CSVs (`listings.csv`, `reviews.csv`, and `neighbourhoods.csv`) are included in this GitHub repository. They can also be obtained from the original Inside Airbnb extract; ensure the source dates match before reproducing results.
 
 ## Core findings
 - **Unique listing snapshot:** 2,876 listings.
 - **Mean advertised nightly price:** $181.26; **median:** $128.00 (valid advertised prices >0 and <=$10,000). Fees/taxes not included.
 - **Largest room type:** ENTIRE HOME/APT.
-- **Most linked historical review rows:** 28806 (only reviews matched to current listing IDs).
+- **Linked historical review rows:** 318,549 (reviews matched to the current listing IDs). Neighborhood **28806** has the most linked review activity, with **88,316** reviews.
 - **Highest recorded yearly review count:** 2023; **highest recorded calendar month:** 2023-10. Boundary periods may be partial and review volume is not booked nights.
 
 ## Room type distribution
